@@ -15,6 +15,11 @@ let str = (pickedWord);
 let res = str.split("");
 console.log(res);
 
+function checkGuessInput(){
+    let inputText= document.getElementById("guessTextInput").value;
+    document.write(inputText);
+}
+
 /* Loop: Komt de gekozenLetter overeen met 1 of meer van de juisteLetters array? 
     Ja: weergeef letter(s) op de juiste plaats
     Nee: er verdwijnt 1 van de 5 levens */
