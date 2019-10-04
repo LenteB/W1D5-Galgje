@@ -13,6 +13,7 @@ console.log("Current Word: " + "_ ".repeat(pickedWord.length));
 /*Split pickedWord in aparte letters */
 let str = (pickedWord);
 let res = str.split("");
+/*test*/
 console.log(res);
 
 /* Loop: Komt de gekozenLetter overeen met 1 of meer van de juisteLetters array? 
